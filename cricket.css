@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    background-color: rgb(114, 175, 114);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+  }
+
+div{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.team{
+    display: "flex";
+    flex-direction: "column";
+}
+
+button{
+    margin: auto;
+    display: block;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.tracker{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
